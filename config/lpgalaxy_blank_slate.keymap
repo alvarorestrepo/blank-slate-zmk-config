@@ -96,13 +96,13 @@
             bindings = <
 &kp GRAVE  &trans     &trans     &kp STAR    &kp HASH      &kp PRCNT       &trans     &trans         &trans      &trans     &trans     &kp DEL
 &trans     &trans     &trans     &trans      &trans        &kp DLLR        &trans     &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT  &trans
-&trans     &trans    &trans       &trans       &trans       &kp LT         &kp GT       &kp PG_DN   &kp PG_UP  &kp END    &trans
+&trans     &trans    &trans       &trans       &trans       &kp LT         &kp GT       &kp PG_DN    &kp PG_UP   &kp END       &trans  &trans
 #ifdef TBLE_DUAL_2U
-&trans  &trans        &trans     &trans              &trans                    &trans       &trans         &trans &trans &trans
+&trans     &trans     &trans     &trans              &trans                      &trans              &trans      &trans      &trans     &trans
 #elif defined(TBLE_MIT)
-&trans  &trans        &trans     &trans      &trans                &trans             &trans      &trans   &trans &trans &trans
+&trans     &trans     &trans     &trans      &trans                &trans               &trans      &trans       &trans      &trans     &trans
 #else
-&trans  &trans        &trans     &trans      &trans          &trans       &trans    &kp VOL_UP  &VOL_DN         &trans &trans &trans
+&trans     &trans     &trans     &trans      &trans        &trans        &trans       &kp VOL_UP     &VOL_DN     &trans      &trans     &trans
 #endif
             >;
         };
