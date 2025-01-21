@@ -96,7 +96,7 @@
 
 //╭────────────┬──────────┬──────────┬──────────┬─────────────┬─────────────┬────────────────┬────────────────┬────────────┬──────────┬─────────────┬───────────────────╮
 //│  `~        │ ^        │          │          │  R          │       T     │       Y        │        U       │    I       │     O    │      P      │   Backspace       │
-   &kp GRAVE    &kp CARET   &trans     &trans      &kp HASH       &kp PRCNT     &kp EQUAL          &kp LPAR         &trans      &trans        &trans       &kp DEL
+   &kp GRAVE    &kp CARET   &trans     &trans      &kp HASH       &kp PRCNT     &kp EQUAL          &kp LPAR      &kp RPAR      &trans        &trans       &kp DEL
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│Tab/num_laye│  A       │  S       │ D        │  F          │       G     │       H        │        J       │    K       │     L    │      ;/:    │      '/".         │
      &trans       &trans     &trans     &trans      &trans          &trans       &trans           &kp LEFT       &kp DOWN     &kp UP      &kp RIGHT      &trans
