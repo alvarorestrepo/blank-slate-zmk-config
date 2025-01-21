@@ -104,13 +104,8 @@
      &trans       &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP    &kp END        &trans
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│   CTRL     │  L_SYM   │  ALT     │ Cmd      │  L_NAV      │   Enter     │       N/A      │ L_ARROW/SPACE  │    LEFT    │     UP   │    DOWN     │   RIGHT           │
-#ifdef TBLE_DUAL_2U
-&trans  &trans        &trans     &trans              &trans                    &trans       &trans         &trans &trans &trans
-#elif defined(TBLE_MIT)
-&trans  &trans        &trans     &trans      &trans                &trans             &trans      &trans   &trans &trans &trans
-#else
 &trans  &trans        &trans     &trans      &trans          &trans       &trans    &trans  &trans         &trans &trans &trans
-#endif
+//╰────────────┴──────────┴──────────┴──────────┴─────────────┴─────────────┴────────────────┴────────────────┴────────────┴──────────┴─────────────┴───────────────────╯
             >;
         };
 
