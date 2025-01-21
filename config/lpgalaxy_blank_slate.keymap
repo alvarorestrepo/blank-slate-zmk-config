@@ -98,14 +98,14 @@
 //│  `~        │ ^        │          │          │  #          │       %     │       =        │        (       │    )       │     &    │      |      │       DEL         │
    &kp GRAVE    &kp CARET   &trans     &trans      &kp HASH       &kp PRCNT     &kp EQUAL          &kp LPAR      &kp RPAR    &kp AMPS    &kp PIPE        &kp DEL
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
-//│Tab/num_laye│  A       │  S       │ D        │  F          │       G     │       H        │        J       │    K       │     L    │      ;/:    │      ''/""        │
+//│    ^       │          │          │          │             │       $     │       @        │        {       │    }       │     _    │      ?      │       !           │
     &kp ASTRK     &trans     &trans     &trans      &trans        &kp DLLR       &kp AT           &kp LBRC        &kp RBRC   &kp UNDER    &kp QMARK      &kp EXCL
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
-//│   Shift    │  Z       │  X       │ C        │  V          │       B     │       N        │        M       │    ,       │     .    │      /      │   Shift/-/_       │
-     &trans       &trans     &trans     &trans      &trans         &kp LT        &kp GT           &kp PG_DN      &kp LBKT    &kp RBKT    &kp ASTRK      &kp FSLH
+//│            │          │          │          │             │       <     │       >        │                │      ]     │          │      /      │   Shift/-/_       │
+     &trans       &trans     &trans     &trans      &trans         &kp LT        &kp GT           &kp LBKT      &kp RBKT     &kp BSLH    &kp ASTRK      &kp FSLH
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│   CTRL     │          │          │          │             │   Enter     │                │ L_ARROW/SPACE  │    LEFT    │     UP   │             │                   │
-    &kp PLUS      &trans     &trans     &trans      &trans         &trans          &trans           &trans     &kp C_VOL_UP &kp C_VOL_DN     &trans        &trans
+    &kp PLUS      &trans     &trans     &trans      &trans         &trans          &trans           &trans    &kp C_VOL_DN  &kp C_VOL_UP   &trans        &trans
 //╰────────────┴──────────┴──────────┴──────────┴─────────────┴─────────────┴────────────────┴────────────────┴────────────┴──────────┴─────────────┴───────────────────╯
             >;
         };
