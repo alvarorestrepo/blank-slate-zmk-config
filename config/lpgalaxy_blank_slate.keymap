@@ -99,7 +99,7 @@
    &kp GRAVE    &kp CARET   &trans     &trans      &kp HASH       &kp PRCNT     &kp EQUAL          &kp LPAR      &kp RPAR    &kp AMPS    &kp PIPE        &kp DEL
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│Tab/num_laye│  A       │  S       │ D        │  F          │       G     │       H        │        J       │    K       │     L    │      ;/:    │      ''/""        │
-    &kp ASTRK     &trans     &trans     &trans      &trans        &kp DLLR       &trans           &kp LEFT       &kp DOWN     &kp UP      &kp RIGHT      &trans
+    &kp ASTRK     &trans     &trans     &trans      &trans        &kp DLLR       &kp AT           &kp LBRC        &kp RBRC   &kp UNDER    &kp QMARK      &kp EXCL
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│   Shift    │  Z       │  X       │ C        │  V          │       B     │       N        │        M       │    ,       │     .    │      /      │   Shift/-/_       │
      &trans       &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP    &kp END        &trans
