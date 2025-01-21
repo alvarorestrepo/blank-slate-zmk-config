@@ -105,7 +105,7 @@
 //│   CTRL     │  L_SYM   │  ALT     │ Cmd      │  L_NAV      │   Enter     │       N/A      │ L_ARROW/SPACE  │    LEFT    │     UP   │    DOWN     │   RIGHT           │
      &trans      &trans     &trans     &trans      &trans         &trans          &trans           &trans         &trans       &trans      &trans.        &trans
 //╰────────────┴──────────┴──────────┴──────────┴─────────────┴─────────────┴────────────────┴────────────────┴────────────┴──────────┴─────────────┴───────────────────╯
-            >;
+
             >;
         };
 
