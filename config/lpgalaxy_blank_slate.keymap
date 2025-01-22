@@ -158,7 +158,7 @@
 
 //╭────────────┬──────────┬──────────┬──────────┬─────────────┬─────────────┬────────────────┬────────────────┬────────────┬──────────┬─────────────┬───────────────────╮
 //│  `         │    BT 1  │   BT 2   │   BT 3   │    BT 4     │     BT 5    │                │                │            │          │             │    Bootloader     │
-    &bt GRAVE    &trans     &trans     &kp UP      &trans         &trans         &trans          &trans         &trans       &trans    &kp LS(&kp N4)        &kp DEL
+    &bt GRAVE    &trans     &trans     &kp UP      &trans         &trans         &trans          &trans         &trans       &trans    &kp LS(N4)        &kp DEL
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
 //│            │   F1     │  F2      │  F3      │  F4         │             │                │                │            │          │             │                   │
       &trans     &trans     &kp LEFT   &kp DOWN    &kp RIGHT      &trans          &trans         &kp LALT        &kp LGUI    &kp UP      &kp RIGHT         &trans
