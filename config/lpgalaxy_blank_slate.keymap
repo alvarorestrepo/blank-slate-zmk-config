@@ -1,6 +1,6 @@
 
 /*
- * Copyright (c) 2022 Pete Johanson
+ * Copyright (c) 2025 Alvaro Restrepo
  *
  * SPDX-License-Identifier: MIT
  */
@@ -139,13 +139,13 @@
 //│  CLEAR BT  │    BT 1  │   BT 2   │   BT 3   │    BT 4     │     BT 5    │                │                │            │          │             │    Bootloader     │
     &bt BT_CLR   &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)     &bt BT(4)       &trans            &trans        &trans       &trans       &trans       &bootloader
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
-//│    ^       │   F1     │  F2      │  F3      │  F4         │       -     │       +        │                │            │          │             │                   │
-      &trans      &kp F1     &kp F2     &kp F3      &kp F4     &kp PLUS        &trans             &trans        &trans       &trans       &trans        &trans
+//│            │   F1     │  F2      │  F3      │  F4         │             │                │                │            │          │             │                   │
+      &trans      &kp F1     &kp F2     &kp F3      &kp F4        &trans        &trans             &trans        &trans       &trans       &trans        &trans
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
-//│            │  F5      │  F6      │  F7      │  F8         │       <     │       .        │                │            │          │             │                   │
-      &trans      &kp F5     &kp F6     &kp F7      &kp F8      &kp PIPE         &trans           &trans          &trans     &trans       &trans         &trans
+//│            │  F5      │  F6      │  F7      │  F8         │             │                │                │            │          │             │                   │
+      &trans      &kp F5     &kp F6     &kp F7      &kp F8        &trans         &trans           &trans          &trans     &trans       &trans         &trans
 //├────────────┼──────────┼──────────┼──────────┼─────────────┼─────────────┼────────────────┼────────────────┼────────────┼──────────┼─────────────┼───────────────────┤
-//│   CTRL     │  F9      │  F10     │  F11     │  F12        │             │                │                │            │          │             │                   │
+//│            │  F9      │  F10     │  F11     │  F12        │             │                │                │            │          │             │                   │
       &trans      &kp F9     &kp F10    &kp F11    &kp F12       &trans          &trans           &trans         &trans       &trans      &trans          &trans
 //╰────────────┴──────────┴──────────┴──────────┴─────────────┴─────────────┴────────────────┴────────────────┴────────────┴──────────┴─────────────┴───────────────────╯
 
